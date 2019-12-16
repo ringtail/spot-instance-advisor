@@ -38,6 +38,14 @@
   version = "v1.7.0"
 
 [[projects]]
+  digest = "1:cbec35fe4d5a4fba369a656a8cd65e244ea2c743007d8f6c1ccb132acf9d1296"
+  name = "github.com/gorilla/mux"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "00bdffe0f3c77e27d2cf6f5c70232a2d3e4d9c15"
+  version = "v1.7.3"
+
+[[projects]]
   digest = "1:b87714e57a511d88f307aba7d5b63522da12bed0a050889c81272fc50f71100e"
   name = "github.com/jmespath/go-jmespath"
   packages = ["."]
@@ -116,6 +124,7 @@
     "github.com/Sirupsen/logrus",
     "github.com/aliyun/alibaba-cloud-sdk-go/services/ecs",
     "github.com/fatih/color",
+    "github.com/gorilla/mux",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -1,7 +1,7 @@
 all: test bin
 
 bin:
-	go build
+	go build -o spot-instance-advisor github.com/AliyunContainerService/spot-instance-advisor/cmd/spot-instance-advisor
 
 # Run tests
 test: fmt vet
